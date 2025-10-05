@@ -11,7 +11,7 @@ public class Perpus17 {
     System.out.println("Apakah sudah registrasi online");
     registrasiOnline = sc.nextBoolean();
 
-    if (punyaKartu == true && registrasiOnline == true ) {
+    if (punyaKartu == true || registrasiOnline == true ) {
         System.out.println("Masuk sana");
     }else{
         System.out.println("Jangan masuk");
