@@ -12,6 +12,8 @@
         if (uktLunas) {
             System.out.println("Pemabayaran ukt terverifikasi");
             System.out.println("Silahkan cetak KRS dan minta tanda tangan Pak Usman");
+        }else{
+            System.out.println("Registrasi ditolak,Silahkan lunasi UKT terlebih dahulu");
         }
         sc.close();
     }   
